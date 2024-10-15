@@ -1,0 +1,160 @@
+ID,Title,Summary,precondition,Steps,expected result,Tester,Testdata,Status,Actual Result,Priority,Severity
+Bug_1,"Amount lower limit
+-Special characters for manager","When entering sepcial characters,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","1- Enter special characters in amount 
+","Error message indicating
+ not allowed special characters ",,"Amount lower limit :
+""$125637""",closed,No Error message is displayed ,Medium ,Minor
+Bug_2,"Amount lower limit
+-Empty field  for manager","When leaving amount empty,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ",1- Leave amount empty ,"Error message indicating
+required field ",,"Amount lower limit:
+""  """,reopen,No Error message is displayed ,High,Major
+Bug_3,"Amount lower limit
+-Characters  for manager","When entering characters,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","1- Enter characters in amount 
+","Error message indicating
+ not allowed characters ",,"
+Amount lower limit
+""S122323""",closed,No Error message is displayed ,Medium ,Minor
+Bug_4,"number of Transactions  can't 
+take special character  for manager","When entering special characters,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","add Special character  to 
+Number of Transaction ","Error message indicating
+Special character are not allowed",,"Number of Transaction =
+""521#""",closed,No Error message is displayed ,Medium ,Minor
+Bug_5,"number of Transactions
+Number of Transaction must not be blank  for manager
+",Keep Number of Transaction  blank,"1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager "," keep Number of Transaction 
+blank ","Error message indicating
+Number of Transaction must not be blank 
+",,"Number of Transaction =
+""   """,Reopen,No Error message is displayed ,Medium ,Minor
+Bug_6,"number of Transactions  can't 
+take  character  for manager",add  Character Number of Transaction,"1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","add character  to 
+Number of Transaction ","Error message indicating
+Character are not allowed",,"Number of Transaction =
+"" 2p""",closed,No Error message is displayed ,Medium ,Minor
+Bug_7,"Verify that amount can not 
+accept minus or zero  for manager","add zero and minus 
+numbers in field of amount ","1-Connect with internet
+2-open browser 
+3-open guru page
+4-login as manager
+5-should have vaild accounts","""
+1-login as customer
+2-press on mini Customized
+Statment
+3-enter account no
+4-enter valid date interval 
+5-enter amount zero or minus number""",erro message should appear ,,"Account No
+""654321""",Reopen,No Error message is displayed ,Medium ,Minor
+"
+Bug_8","Verify that Manager can display his customized
+statment  for manager","when we submit the button
+we can not go to page of statments","1-Connect with internet
+2-open browser 
+3-open guru page
+4-login as manager
+5-should have vaild accounts","
+1-login as manager
+2-press on mini Customized
+Statment
+3-enter account no
+4-enter valid date interval 
+5-enter valid amount ","no message error and manager 
+can search on any account no 
+associate with him",,"""5000""",Reopen,"No Error message is displayed 
+and can not go to statment page",Medium ,Minor
+,,,,,,,,,,,
+,,,,,,,,,,,
+Bug_9,"Amount lower limit
+-Special characters for customer","When entering sepcial characters,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","1- Enter special characters in amount 
+","Error message indicating
+ not allowed special characters ",,"Amount lower limit :
+""$125637""",closed,No Error message is displayed ,Medium ,Minor
+Bug_10,"Amount lower limit
+-Empty field  for customer","When leaving amount empty,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ",1- Leave amount empty ,"Error message indicating
+required field ",,"Amount lower limit:
+""  """,new,No Error message is displayed ,High,Major
+Bug_11,"Amount lower limit
+-Characters  for customer","When entering characters,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","1- Enter characters in amount 
+","Error message indicating
+ not allowed characters ",,"
+Amount lower limit
+""S122323""",closed,No Error message is displayed ,Medium ,Minor
+Bug_12,"number of Transactions  can't 
+take special character  for customer","When entering special characters,
+no error message is displayed","1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","add Special character  to 
+Number of Transaction ","Error message indicating
+Special character are not allowed",,"Number of Transaction =
+""521#""",closed,No Error message is displayed ,Medium ,Minor
+Bug_13,"number of Transactions
+Number of Transaction must not be blank  for customer
+",Keep Number of Transaction  blank,"1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager "," keep Number of Transaction 
+blank ","Error message indicating
+Number of Transaction must not be blank 
+",,"Number of Transaction =
+""   """,new,No Error message is displayed ,Medium ,Minor
+Bug_14,"number of Transactions  can't 
+take  character  for customer",add  Character Number of Transaction,"1- stable internet connection 
+3- Reachable url ""https://demo.guru99.com/V1/html/CustomisedStatementInput.php""
+2- Login as a manager ","add character  to 
+Number of Transaction ","Error message indicating
+Character are not allowed",,"Number of Transaction =
+"" 2p""",closed,No Error message is displayed ,Medium ,Minor
+Bug_15,"Verify that amount can not 
+accept minus or zero  for customer","add zero and minus 
+numbers in field of amount ","1-Connect with internet
+2-open browser 
+3-open guru page
+4-login as manager
+5-should have vaild accounts","""
+1-login as customer
+2-press on mini Customized
+Statment
+3-enter account no
+4-enter valid date interval 
+5-enter amount zero or minus number""",erro message should appear ,,"Account No
+""654321""",new,No Error message is displayed ,Medium ,Minor
+Bug_16,"Verify that Manager can display his customized
+statment  for customer","when we submit the button
+we can not go to page of statments","1-Connect with internet
+2-open browser 
+3-open guru page
+4-login as manager
+5-should have vaild accounts","
+1-login as customer
+2-press on mini Customized
+Statment
+3-enter account no
+4-enter valid date interval 
+5-enter valid amount ","no message error and customer 
+can search on any account no 
+associate with him",,"""5000""",new,"No Error message is displayed 
+and can not go to statment page",Medium ,Minor
